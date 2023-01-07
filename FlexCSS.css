@@ -1,0 +1,9 @@
+header {
+  background-color: gray; //Makes background color gray
+    display: flex; //Enables usage of Flexbox
+}
+
+header > div:nth-child(3) { //selects three divs
+    margin-left: auto; //moves three divs to the left
+}
+
